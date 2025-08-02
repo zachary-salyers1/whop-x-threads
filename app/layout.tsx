@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Whop App",
-	description: "My Whop App",
+	title: "X Thread Generator",
+	description: "Transform YouTube videos into engaging X threads",
 };
 
 export default function RootLayout({
