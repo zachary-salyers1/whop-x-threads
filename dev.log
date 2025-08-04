@@ -1,0 +1,32 @@
+
+> whop-nextjs-app-template@0.1.0 dev
+> whop-proxy --command "next dev --turbopack"
+
+
+ --------------------------------------------------
+ ⋅ ✔︎ Running your app on: http://localhost:3000
+ --------------------------------------------------
+
+ ⋅ to bypass the proxy, use the following original port: 42549
+ ⋅ logs from your app will now appear here ↓
+
+   ▲ Next.js 15.3.2 (Turbopack)
+   - Local:        http://localhost:42549
+   - Network:      http://172.30.0.2:42549
+   - Environments: .env.local, .env.development
+
+ ✓ Starting...
+ ✓ Ready in 749ms
+(node:3989) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ○ Compiling /api/generate-thread ...
+ ✓ Compiled /api/generate-thread in 668ms
+Error fetching transcript: Error: [YoutubeTranscript] 🚨 Transcript is disabled on this video (dQw4w9WgXcQ)
+    at Generator.next (<anonymous>)
+ POST /api/generate-thread 400 in 1791ms
+Error fetching transcript: Error: [YoutubeTranscript] 🚨 Transcript is disabled on this video (TcMBFSGVi1c)
+    at Generator.next (<anonymous>)
+ POST /api/generate-thread 400 in 878ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2s
+ GET / 200 in 2194ms
